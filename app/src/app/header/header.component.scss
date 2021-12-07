@@ -6,7 +6,7 @@
     height: 60px;
     display: flex;
     align-items: center;
-    background-color: #1976d2;
+    background-color: #6f4399;
     color: white;
     font-weight: 600;
   }
@@ -28,4 +28,9 @@
   .toolbar #twitter-logo:hover,
   .toolbar #youtube-logo:hover {
     opacity: 0.8;
+  }
+
+  img {
+    width: 40px;
+    border-radius: 50%;
   }

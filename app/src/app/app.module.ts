@@ -8,6 +8,7 @@ import { HomeComponent } from './home/home.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { TooltipModule } from 'ngx-bootstrap/tooltip';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { FooterComponent } from './footer/footer.component';
 
 
 @NgModule({
@@ -15,6 +16,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     AppComponent,
     HeaderComponent,
     HomeComponent,
+    FooterComponent,
   ],
   imports: [
     BrowserModule,

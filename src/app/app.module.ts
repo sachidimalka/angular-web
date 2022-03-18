@@ -7,12 +7,14 @@ import { CrudComponent } from './crud/crud.component';
 import { AppRoutes } from './app.routing';
 import { RouterModule } from '@angular/router';
 import { HeaderComponent } from './header/header.component';
+import { FooterComponent } from './footer/footer.component';
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     CrudComponent,
-    HeaderComponent
+    HeaderComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

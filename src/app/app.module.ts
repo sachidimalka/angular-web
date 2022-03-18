@@ -6,11 +6,13 @@ import { HomeComponent } from './home/home.component';
 import { CrudComponent } from './crud/crud.component';
 import { AppRoutes } from './app.routing';
 import { RouterModule } from '@angular/router';
+import { HeaderComponent } from './header/header.component';
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    CrudComponent
+    CrudComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,

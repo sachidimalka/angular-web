@@ -8,13 +8,21 @@ import { AppRoutes } from './app.routing';
 import { RouterModule } from '@angular/router';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
+import { AboutComponent } from './about/about.component';
+import { DashboardComponent } from './dashboard/dashboard.component';
+import { EmployeeDetailsComponent } from './employee-details/employee-details.component';
+import { RoomsDetailsComponent } from './rooms-details/rooms-details.component';
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     CrudComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    AboutComponent,
+    DashboardComponent,
+    EmployeeDetailsComponent,
+    RoomsDetailsComponent
   ],
   imports: [
     BrowserModule,
